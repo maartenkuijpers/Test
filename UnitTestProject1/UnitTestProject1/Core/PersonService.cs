@@ -1,12 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
 using UnitTestProject1.Interfaces;
 
-namespace UnitTestProject1
+namespace UnitTestProject1.Core
 {
     public class PersonService
     {

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using UnitTestProject1.Core;
 
 namespace UnitTestProject1.Interfaces
 {

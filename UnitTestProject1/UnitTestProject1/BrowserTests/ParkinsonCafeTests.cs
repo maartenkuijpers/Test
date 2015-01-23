@@ -1,6 +1,6 @@
-﻿using NUnit.Framework;
+﻿using System;
+using NUnit.Framework;
 using OpenQA.Selenium.Support.UI;
-using System;
 using UnitTestProject1.Core;
 
 namespace UnitTestProject1

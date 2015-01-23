@@ -1,10 +1,11 @@
-﻿using NUnit.Framework;
-using NUnit.Mocks;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using NUnit.Framework;
+using NUnit.Mocks;
+using UnitTestProject1.Core;
 using UnitTestProject1.Interfaces;
 
-namespace UnitTestProject1
+namespace UnitTestProject1.NUnitMocks
 {
     [TestFixture]
     public class PersonServiceTest

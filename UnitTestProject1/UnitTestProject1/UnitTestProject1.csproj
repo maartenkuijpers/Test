@@ -71,11 +71,13 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Core\BaseTest.cs" />
+    <Compile Include="Interfaces\ICalculator.cs" />
     <Compile Include="Interfaces\IPersonRepository.cs" />
-    <Compile Include="ParkinsonCafeTests.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="PersonService.cs" />
-    <Compile Include="PersonServiceTest.cs" />
+    <Compile Include="BrowserTests\ParkinsonCafeTests.cs" />
+    <Compile Include="Core\Person.cs" />
+    <Compile Include="Core\PersonService.cs" />
+    <Compile Include="NSubstitute\TestNSubstitute.cs" />
+    <Compile Include="NUnitMocks\PersonServiceTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -87,6 +89,7 @@
     <Content Include="WebDrivers\IEDriverServer.exe" />
     <Content Include="WebDrivers\WebDriverDownloadLocations.txt" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>
