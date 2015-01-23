@@ -24,12 +24,8 @@ namespace UnitTestProject1
 
         public List<Person> GetAllPeopleSorted()
         {
-            List<Person> people = personRepos.GetPeople();
-            people.Sort(delegate(Person lhp, Person rhp)
-            {
-                return lhp.LastName.CompareTo(rhp.LastName);
-            })
-            ;
+            var people = personRepos.GetPeople();
+            people.Sort((lhp, rhp) => String.Compare(lhp.LastName, rhp.LastName, StringComparison.Ordinal));
             return people;
         }
 
