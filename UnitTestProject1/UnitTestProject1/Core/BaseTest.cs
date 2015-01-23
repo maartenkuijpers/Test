@@ -51,7 +51,7 @@ namespace UnitTestProject1.Core
                     CurrentDriver = new SafariDriver(new SafariOptions());
                     break;
                 default:
-                    CurrentDriver = new PhantomJSDriver(); // Headless browser
+                    CurrentDriver = new PhantomJSDriver(); // The headless browser
                     break;
             }
 
