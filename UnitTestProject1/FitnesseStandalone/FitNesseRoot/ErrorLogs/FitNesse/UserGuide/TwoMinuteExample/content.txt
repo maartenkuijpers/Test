@@ -1,8 +1,0 @@
-
-!3 !-slim:fitnesse.slim.SlimService-!
-|'''Date: '''| 2:33:16 PM (CET) on donderdag, januari 29, 2015 |
-|'''Test Page: '''|.FitNesse.UserGuide.TwoMinuteExample|
-|'''Command: '''| !-"C:\Program Files\Java\jdk1.8.0_25\bin\java" -cp fitnesse-standalone.jar;classes;lib/*.jar fitnesse.slim.SlimService 8085-! |
-|'''Exit code: '''| 0 |
-|'''Time elapsed: '''| 0.881 seconds |
-

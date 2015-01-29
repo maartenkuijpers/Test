@@ -1,3 +1,0 @@
-@echo Please visit http://wiki.mpedia.nl/ for more instructions...
-@echo.
-java -jar fitnesse-standalone.jar -p 8888

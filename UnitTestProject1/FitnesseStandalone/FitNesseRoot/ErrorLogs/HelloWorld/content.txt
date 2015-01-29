@@ -1,8 +1,0 @@
-
-!3 !-fit:fitsharp\Runner.exe-!
-|'''Date: '''| 9:43:41 PM (CET) on donderdag, januari 29, 2015 |
-|'''Test Page: '''|.HelloWorld|
-|'''Command: '''| !-fitsharp\Runner.exe -r fitnesse.fitserver.FitServer,fitsharp\fit.dll ..\TestFitNesse\bin\Debug\TestFitNesse.dll TISLaptop 54494 3863-! |
-|'''Exit code: '''| 0 |
-|'''Time elapsed: '''| 0.554 seconds |
-
