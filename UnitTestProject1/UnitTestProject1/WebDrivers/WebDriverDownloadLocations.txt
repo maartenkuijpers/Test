@@ -1,8 +1,0 @@
-You can download the web drivers for specific browser types here:
-
-Chrome: "ChromeDriver.exe"
-http://chromedriver.storage.googleapis.com/index.html
-
-Internet Explorer: "IEDriverServer.exe"
-http://selenium-release.storage.googleapis.com/index.html
-
