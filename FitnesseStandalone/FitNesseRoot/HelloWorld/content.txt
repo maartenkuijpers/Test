@@ -1,0 +1,13 @@
+!define COMMAND_PATTERN {%m -r fitnesse.fitserver.FitServer,fitsharp\fit.dll %p}
+!define TEST_RUNNER {fitsharp\Runner.exe}
+!path ..\UnitTestProject1\TestFitNesse\bin\Debug\TestFitNesse.dll
+
+!|TestFitNesse.OurFirstTest    |
+|string1|string2|Concatenate?|
+|Hello  |World  |Hello World |
+|Hopjes |Vla    |Hopjes Vla  |
+
+!|TestFitNesse.OurFirstTest                          |
+|string1        |string2|WordCount?|CharacterCount?|
+|Hello          |World  |2         |11             |
+|This is another|Test   |4         |20             |
