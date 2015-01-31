@@ -1,0 +1,8 @@
+
+!3 !-fit:fitsharp\Runner.exe-!
+|'''Date: '''| 11:46:59 PM (CET) on donderdag, januari 29, 2015 |
+|'''Test Page: '''|.HelloWorld.RowFixtureTest|
+|'''Command: '''| !-fitsharp\Runner.exe -r fitnesse.fitserver.FitServer,fitsharp\fit.dll ..\UnitTestProject1\TestFitNesse\bin\Debug\TestFitNesse.dll TISLaptop 57519 3863-! |
+|'''Exit code: '''| 0 |
+|'''Time elapsed: '''| 0.603 seconds |
+

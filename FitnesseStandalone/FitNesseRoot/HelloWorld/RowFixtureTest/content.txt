@@ -1,0 +1,16 @@
+Note that this test is using the DLL define of the HelloWorld page.
+
+!|TestFitNesse.SetUpFixtureTest  |
+|player        |post code|balance|
+|John Smith    |SW4 66Z  |10.00  |
+|Michael Jordan|NE1 8AT  |12.00  |
+
+!|TestFitNesse.RowFixtureTest|
+|name            |post code  |
+|John Smith      |SW4 66Z    |
+|Michael Jordan  |NE1 8AT    |
+
+!|TestFitNesse.RowFixtureTest|
+|name             |balance   |
+|John Smith       |10.00     |
+|Michael Jordan   |12.00     |

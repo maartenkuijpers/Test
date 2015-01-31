@@ -1,0 +1,6 @@
+Merk op dat hier een dubbele || wordt gebruikt!
+
+!|TestFitNesse.CalculateFixtureTest                     |
+|firstPart|secondPart       ||together                  |
+|Hello    |World            ||Hello, World              |
+|Houston  |We Have a Problem||Houston, We Have a Problem|
