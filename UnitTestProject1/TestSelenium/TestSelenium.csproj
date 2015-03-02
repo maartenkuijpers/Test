@@ -85,6 +85,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ReadMe.txt" />
     <Content Include="WebDrivers\chromedriver.exe" />
     <Content Include="WebDrivers\IEDriverServer.exe" />
     <Content Include="WebDrivers\WebDriverDownloadLocations.txt" />
